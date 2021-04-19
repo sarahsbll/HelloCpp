@@ -9,9 +9,7 @@ int main()
 
     cout << "Enter integers a and b :" << endl;
 
-    cin >> a;
-
-    cin >> b;
+    cin >> a >> b;
 
     cout << "The integers in English are :" << endl;
 
@@ -34,6 +32,11 @@ int main()
                 cout << "odd" << endl;
             }
         }
+        /* more concise solution using the ternary operator
+
+            cout<<((i<=9)?c[i]:((i%2==0)?"even":"odd"))<<endl;
+
+        */
     }
     return 0;
 }
