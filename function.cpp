@@ -50,4 +50,8 @@ an alternative solution based on a process of elimination
         ans = d;
 
     return ans;
+
+    more concise solution using the ternary operator 
+    (a>b?a:b)>(c>d?c:d)?(a>b?a:b):(c>d?c:d)
+
 */
